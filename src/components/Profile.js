@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons'
+
 function Profile() {
     return (
         <div className="profile-container card">
@@ -7,6 +10,14 @@ function Profile() {
                 environment ReactJS. Sudah banyak membangun project melalui online
                 course. Sangat memiliki minat belajar yang tinggi untuk dapat
                 menguasai environment lainnya</p>
+
+            <h3>Find me in:</h3>
+            <div className="contact-list">
+            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faFacebook} />
+            <FontAwesomeIcon icon={faTwitter} />
+            </div>
         </div>
     )
 }

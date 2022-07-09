@@ -146,3 +146,10 @@ body {
 .footer-container > p{
     margin: 10px;
 }
+
+.contact-list{
+    display: flex;
+    gap: 40px;
+    font-size: 40px;
+    margin: 50px;
+}
